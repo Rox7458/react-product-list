@@ -1,13 +1,16 @@
 import React from "react";
+import CardStyle from "../../scss/productCard.module.scss";
 
 const ProductCard = ({ data }) => {
   return (
     <>
       {data.map(({ image, price, title }) => (
-        <div>
+        <div className={CardStyle.container}>
+          <div className={CardStyle.price}>
+            <h3>{price}</h3>
+          </div>
           <img src={image} alt="" />
-          <p>${price}</p>
-          <span>${title}</span>
+          <h2>{title}</h2>
         </div>
       ))}
     </>
