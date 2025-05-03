@@ -1,0 +1,29 @@
+div {
+  h1 {
+    display: flex;
+    color: #cd890c;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    justify-self: center;
+    margin-bottom: 2rem;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+   
+    
+
+    button {
+      border: none;
+      font-size: 1.2rem;
+      border-radius: 1.5rem;
+      padding: 1rem;
+      &:hover{
+        background-color: rgba(221, 216, 210, 0.889);
+    }
+    }
+  }
+}

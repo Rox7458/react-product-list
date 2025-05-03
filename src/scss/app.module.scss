@@ -1,8 +1,15 @@
-main{
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    gap: 3rem;
-    
-    
+body {
+  background-color: bisque;
+
+  div {
+    margin: 1rem;
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: absolute;
+      gap: 3rem;
+    }
+  }
 }

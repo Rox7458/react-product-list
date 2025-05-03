@@ -7,7 +7,7 @@ const ProductCard = ({ data }) => {
       {data.map(({ image, price, title }) => (
         <div className={CardStyle.container}>
           <div className={CardStyle.price}>
-            <h3>{price}</h3>
+            <h3>$ {price}</h3>
           </div>
           <img src={image} alt="" />
           <h2>{title}</h2>

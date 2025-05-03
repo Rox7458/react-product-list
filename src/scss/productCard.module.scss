@@ -2,9 +2,8 @@
   position: relative;
   width: 350px;
   height: 450px;
-  z-index: 0;
   border-radius: 10px;
-//   overflow: hidden;
+  overflow: hidden;
 
   .price {
     position: absolute;
@@ -20,23 +19,42 @@
       font-size: 1.2rem;
       background-color: rgba(0, 0, 0, 0.8);
       border-radius: 10px;
+      z-index: 1;
     }
   }
 
   img {
+    object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    filter: contrast(80%);
   }
 
   h2 {
     text-align: center;
     color: white;
-    padding: 0.6rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
     position: absolute;
     bottom: -20px;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
     width: 100%;
+    left: 100%;
+  }
+
+  &:hover {
+    $theme: 1;
+
+    @if $theme==1 {
+      h2 {
+        transform: translateX(-100%);
+        transition: ease 0.7s;
+      }
+      img {
+        filter: contrast(100%);
+      }
+    }
   }
 }
