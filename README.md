@@ -20,21 +20,20 @@ This project showcases:
 
 ## File Structure
 
-├── public
 ├── src
-│ ├── components
-| | ├── Header
-| | | └──  Header.jsx
-│ │ ├── ProductCard
-| | | └──  ProductCard.jsx
-│ ├── helper
-│ │ └── data.js
-│ ├── scss
-│ │ └── app.module.scss
-│ │ └── header.module.scss
-│ │ └── productCard.module.scss
-│ ├── App.jsx
-│ ├── main.jsx
+┣ 📂components
+┃ ┣ 📂Header
+┃ ┃ ┣ 📜Header.jsx
+┃ ┗ 📂ProductCard
+┃ ┃ ┣ 📜ProductCard.jsx
+┣ 📂helper
+┃ ┗ 📜data.js
+┣ 📂scss
+┃ ┣ 📜app.module.scss
+┃ ┣ 📜header.module.scss
+┃ ┗ 📜productCard.module.scss
+┣ 📜App.js
+┣ 📜App.scss
 
 ## Preview
 
