@@ -1,12 +1,49 @@
-# React + Vite
+# Image Gallery Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The project presents a shopping website example as visual without functionality.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project showcases:
 
-## Expanding the ESLint configuration
+- A flex-based layout to display content.
+- The use of scss sass for responsive design and styling.
+- React component structure method.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- **Interactive Layout:**
+  - Interactive hover effects for better user engagement.
+- **Content Sections:**
+  - **Header:** Displays the title of the website and categories.
+  - **Main Section:** Contain ProductCard component an within product structure.
+
+## File Structure
+
+├── public
+├── src
+│ ├── components
+| | ├── Header
+| | | └──  Header.jsx
+│ │ ├── ProductCard
+| | | └──  ProductCard.jsx
+│ ├── helper
+│ │ └── data.js
+│ ├── scss
+│ │ └── app.module.scss
+│ │ └── header.module.scss
+│ │ └── productCard.module.scss
+│ ├── App.jsx
+│ ├── main.jsx
+
+## Preview
+
+Here’s a preview of the project in action:
+
+![alt text](REC-20250504153819-ezgif.com-video-to-gif-converter-1.gif)
+
+## Technologies Used
+
+- **REACT**: For structuring the content.
+- **SASS**: For styling and implementing responsiveness.
+- **JavaScript**: As data base.

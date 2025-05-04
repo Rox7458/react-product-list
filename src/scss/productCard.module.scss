@@ -10,8 +10,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 350px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
 
     h3 {
       color: white;
@@ -54,6 +54,20 @@
       }
       img {
         filter: contrast(100%);
+      }
+    }
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    height: 100%;
+
+    .price {
+      h3 {
+        padding: 2rem;
+        font-size: 3rem;
       }
     }
   }
