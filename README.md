@@ -1,4 +1,4 @@
-# Image Gallery Website
+# Product List Website
 
 The project presents a shopping website example as visual without functionality.
 
